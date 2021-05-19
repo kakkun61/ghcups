@@ -1,5 +1,5 @@
 ﻿#
-# モジュール 'ghcups' のモジュール マニフェスト
+# モジュール 'ghcman' のモジュール マニフェスト
 #
 # 生成者: 岡本和樹
 #
@@ -9,16 +9,16 @@
 @{
 
 # このマニフェストに関連付けられているスクリプト モジュール ファイルまたはバイナリ モジュール ファイル。
-RootModule = 'ghcups.psm1'
+RootModule = 'ghcman.psm1'
 
 # このモジュールのバージョン番号です。
-ModuleVersion = '4.3'
+ModuleVersion = '0.0'
 
 # サポートされている PSEditions
 # CompatiblePSEditions = @()
 
 # このモジュールを一意に識別するために使用される ID
-GUID = 'e5cd2573-d723-4600-abdb-e552c9d401d4'
+GUID = 'd6310938-37d4-4174-9f47-93b29c98caaf'
 
 # このモジュールの作成者
 Author = 'Kazuki Okamoto (岡本和樹)'
@@ -27,10 +27,10 @@ Author = 'Kazuki Okamoto (岡本和樹)'
 CompanyName = ''
 
 # このモジュールの著作権情報
-Copyright = '2020 Kazuki Okamoto (岡本和樹), 2019 IIJ Innovation Institute Inc.'
+Copyright = '2021 Kazuki Okamoto (岡本和樹)'
 
 # このモジュールの機能の説明
-Description = 'Switch GHC and Cabal quickly'
+Description = 'Planned construction site'
 
 # このモジュールに必要な Windows PowerShell エンジンの最小バージョン
 PowerShellVersion = '3.0'
@@ -51,7 +51,7 @@ PowerShellVersion = '3.0'
 # ProcessorArchitecture = ''
 
 # このモジュールをインポートする前にグローバル環境にインポートされている必要があるモジュール
-RequiredModules = @('Microsoft.PowerShell.Archive', 'powershell-yaml')
+RequiredModules = @()
 
 # このモジュールをインポートする前に読み込まれている必要があるアセンブリ
 # RequiredAssemblies = @()
@@ -69,7 +69,7 @@ RequiredModules = @('Microsoft.PowerShell.Archive', 'powershell-yaml')
 NestedModules = @()
 
 # このモジュールからエクスポートする関数です。最適なパフォーマンスを得るには、ワイルドカードを使用せず、エクスポートする関数がない場合は、エントリを削除しないで空の配列を使用してください。
-FunctionsToExport = @('Set-Ghc', 'Get-Ghc', 'Clear-Ghc', 'Install-Ghc', 'Uninstall-Ghc', 'Show-Ghc', 'Set-Cabal', 'Get-Cabal', 'Clear-Cabal', 'Install-Cabal', 'Uninstall-Cabal', 'Show-Cabal', 'Write-GhcupsConfigTemplate', 'Show-GhcupsConfig', 'Get-GhcupsConfig')
+FunctionsToExport = @()
 
 # このモジュールからエクスポートするコマンドレットです。最適なパフォーマンスを得るには、ワイルドカードを使用せず、エクスポートするコマンドレットがない場合は、エントリを削除しないで空の配列を使用してください。
 CmdletsToExport = @()
@@ -95,21 +95,21 @@ PrivateData = @{
     PSData = @{
 
         # このモジュールに適用されているタグ。オンライン ギャラリーでモジュールを検出する際に役立ちます。
-        Tags = @('Haskell', 'GHC', 'PSEdition_Core', 'Windows')
+        Tags = @()
 
         # このモジュールのライセンスの URL。
-        LicenseUri = 'https://github.com/kakkun61/ghcups/blob/4.3/LICENSE'
+        LicenseUri = ''
 
         # このプロジェクトのメイン Web サイトの URL。
-        ProjectUri = 'https://github.com/kakkun61/ghcups'
+        ProjectUri = ''
 
         # このモジュールを表すアイコンの URL。
         # IconUri = ''
 
         # このモジュールの ReleaseNotes
-        ReleaseNotes = 'https://github.com/kakkun61/ghcups/blob/4.3/ChangeLog.md'
+        ReleaseNotes = ''
 
-        ExternalModuleDependencies = @('Microsoft.PowerShell.Management', 'Microsoft.PowerShell.Utility')
+        ExternalModuleDependencies = @()
 
     } # PSData ハッシュテーブル終了
 
